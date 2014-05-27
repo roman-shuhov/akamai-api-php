@@ -1,0 +1,21 @@
+{
+	"name": "roman-shuhov/akamai-API-PHP",
+	"type": "library",
+	"description": "PHP REST Client for Akamai CCU API",
+	"keywords": ["akamai", "Akamai CCU", "API"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Roman Shuhov",
+			"email": "roman.shuhov@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"autoload": {
+		"psr-0": {
+			"Akamai": "src/"
+		}
+	}
+}
